@@ -3,13 +3,11 @@ Playwright Test Automation
 This project contains automated tests for various applications using Playwright with JavaScript.
 It is designed to ensure application functionality through fast, reliable, and cross-browser end-to-end testing.
 
-Installation
 Clone this repository and install dependencies:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
 
-Running Tests
 Run all tests:
 npx playwright test
 
@@ -32,16 +30,13 @@ Project Structure
 ├── package.json          # Project dependencies & scripts
 └── README.md             # Documentation
 
-Configuration
 You can customize playwright.config.js to change:
 Test timeout
 Browser/project setup
 Reporters (HTML, JSON, etc.)
 Screenshot/video settings
 
-Reports
 Generate an HTML test report:
 npx playwright show-report
 
-Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
