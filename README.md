@@ -23,12 +23,11 @@ npx playwright test --project=firefox
 npx playwright test --project=webkit
 
 Project Structure
-├── tests/                # Test files
-│   ├── example.spec.js   # Sample test
-│   └── ...
-├── playwright.config.js  # Playwright configuration
-├── package.json          # Project dependencies & scripts
-└── README.md             # Documentation
+tests/                # Test files
+example.spec.js       # Sample test
+playwright.config.js  # Playwright configuration
+package.json          # Project dependencies & scripts
+README.md             # Documentation
 
 You can customize playwright.config.js to change:
 Test timeout
