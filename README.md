@@ -3,16 +3,8 @@ Playwright Test Automation
 This project contains automated tests for various applications using Playwright with JavaScript.
 It is designed to ensure application functionality through fast, reliable, and cross-browser end-to-end testing.
 
-Features
-End-to-end test automation with Playwright
-Cross-browser testing (Chromium, Firefox, WebKit)
-Easy configuration for multiple environments
-Screenshot & video recording for failed tests
-Supports parallel execution for faster runs
-
 Installation
 Clone this repository and install dependencies:
-
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
@@ -21,14 +13,11 @@ Running Tests
 Run all tests:
 npx playwright test
 
-
 Run tests in a specific file:
 npx playwright test tests/example.spec.js
 
-
 Run tests in headed mode (to see the browser):
 npx playwright test --headed
-
 
 Run tests in a specific browser:
 npx playwright test --project=chromium
